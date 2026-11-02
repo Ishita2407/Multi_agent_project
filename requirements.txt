@@ -1,0 +1,4 @@
+pypdf>=4.0
+streamlit>=1.40
+pytest>=8.0
+reportlab>=4.0   # only used by the PDF test

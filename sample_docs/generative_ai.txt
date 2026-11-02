@@ -1,0 +1,17 @@
+Generative AI: A Short Introduction
+
+Generative AI refers to artificial intelligence systems that create new content such as text, images, audio, and code. Unlike traditional predictive models that classify or score existing data, generative models learn the patterns in large collections of training data and then produce new examples that follow those patterns.
+
+Most modern text generation relies on large language models, often called LLMs. An LLM is a neural network trained on enormous amounts of text to predict the next token in a sequence. A token is a small piece of text, such as a word or part of a word. By repeating this prediction step many times, the model can write whole paragraphs, answer questions, and summarise documents.
+
+The transformer architecture made large language models practical. Transformers use a mechanism called attention, which lets the model weigh how relevant each token in the input is to every other token. Because attention can be computed in parallel, transformers can be trained on far more data than earlier recurrent networks.
+
+Training usually happens in two stages. In pretraining, the model learns general language patterns from a very large text corpus. In fine-tuning, the model is trained further on a smaller, carefully chosen dataset so that it follows instructions and behaves safely. Some systems also use human feedback, where people rank model answers so the model learns which responses are preferred.
+
+Generative models have important limitations. They can produce hallucinations, which are confident statements that are false or unsupported by any source. They can also reflect biases that exist in their training data. For this reason, important outputs should always be checked by a person.
+
+One technique that reduces hallucinations is retrieval-augmented generation, or RAG. In a RAG system, the application first retrieves relevant passages from a trusted document collection and then gives those passages to the model as context. The model is asked to answer using only that retrieved context, which keeps its answers grounded in real sources.
+
+Prompt engineering is the practice of writing clear instructions so that a model produces useful results. Good prompts state the task, give the needed context, and describe the desired format of the answer.
+
+Generative AI is now used for drafting emails, writing software, creating study materials, and helping customer support teams. Responsible use requires attention to accuracy, privacy, and fairness.
