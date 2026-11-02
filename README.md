@@ -1,5 +1,10 @@
 # AI Study Assistant — Multi-Agent Learning Platform
 
+
+https://github.com/user-attachments/assets/52e5c8ab-e6b3-4cb3-972f-f0f3e5eda2f4
+
+
+
 An AI-powered study assistant that converts learning material into structured summaries, interactive quizzes, and personalized study recommendations. Built using Python, Streamlit, and Groq LLMs, it leverages a multi-agent architecture to automate content generation, quality review, and learner assessment.
 
 ## Features
